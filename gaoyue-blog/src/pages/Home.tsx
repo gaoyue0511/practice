@@ -43,15 +43,27 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="hero__visual" aria-hidden="true">
-          <div className="blob blob--one" />
-          <div className="blob blob--two" />
+        <div className="hero__visual">
+          <div className="blob blob--one" aria-hidden="true" />
+          <div className="blob blob--two" aria-hidden="true" />
           <div className="avatar-card">
-            <div className="avatar">{site.initials}</div>
-            <p className="avatar-card__name">{site.author}</p>
-            <p className="avatar-card__role">{site.role}</p>
-            <div className="avatar-card__line" />
-            <p className="avatar-card__motto">慢慢写，认真生活</p>
+            <div className="avatar-card__sheen" aria-hidden="true" />
+            <div className="avatar-card__main">
+              <div className="avatar-card__head">
+                <img className="avatar-card__photo" src="/avatar.jpg" alt="个人证件照" />
+                <div>
+                  <p className="avatar-card__brand">GAOYUE&apos;S BLOG</p>
+                  <p className="avatar-card__name">{site.author}</p>
+                  <p className="avatar-card__role">{site.role}</p>
+                </div>
+              </div>
+              <div className="avatar-card__line" />
+              <div className="avatar-card__contact">
+                <span className="avatar-card__pill">✉  邮箱 :{site.email}</span>
+                <span className="avatar-card__pill">☎  电话:{site.phone}</span>
+                <span className="avatar-card__pill">💬 微信: {site.wechat}</span>
+              </div>
+            </div>
           </div>
         </div>
       </section>

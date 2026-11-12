@@ -12,7 +12,11 @@ export default function Header() {
     <header className="site-header">
       <div className="site-header__inner">
         <Link to="/" className="brand" aria-label={`${site.title} 首页`}>
-          <span className="brand__mark">{site.initials}</span>
+          <span className="brand-gao" aria-hidden="true">
+            {'GaoYue'.split('').map((char, index) => (
+              <span key={`${char}-${index}`}>{char}</span>
+            ))}
+          </span>
           <span className="brand__text">
             {site.title}
             <small>{site.tagline}</small>

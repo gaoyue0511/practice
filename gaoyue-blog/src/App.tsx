@@ -7,6 +7,7 @@ import Home from './pages/Home'
 import NotFound from './pages/NotFound'
 import Post from './pages/Post'
 import Project from './pages/Project'
+import Intro from './components/Intro'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -21,6 +22,7 @@ function ScrollToTop() {
 export default function App() {
   return (
     <BrowserRouter>
+      <Intro />
       <ScrollToTop />
       <Routes>
         <Route element={<Layout />}>
