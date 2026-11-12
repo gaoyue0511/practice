@@ -4,10 +4,10 @@ const heroImage =
   'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=flat%20illustration%20of%20an%20AI%20color%20palette%20generator%20dashboard%2C%20rows%20of%20color%20swatches%20with%20hex%20codes%2C%20pastel%20pink%20yellow%20mint%20blue%20gradient%2C%20dopamine%20colors%2C%20clean%20modern%20minimal%20web%20design&image_size=landscape_16_9'
 
 const uiImage =
-  'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=web%20app%20user%20interface%20mockup%20for%20color%20scheme%20generation%2C%20cards%20showing%20color%20palettes%2C%20soft%20pastel%20background%2C%20clean%20UI%20design%20with%20rounded%20corners%20and%20soft%20shadows%2C%20modern%20minimal%20style&image_size=landscape_4_3'
+  '/color-index.png'
 
 const modelImage =
-  'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=abstract%20neural%20network%20visualization%20generating%20color%20palettes%2C%20flowing%20gradient%20ribbons%20in%20pink%20orange%20yellow%20mint%20blue%20violet%2C%20modern%20tech%20illustration%2C%20data%20science%20aesthetic&image_size=landscape_4_3'
+  '/color-show.png'
 
 const features = [
   {
