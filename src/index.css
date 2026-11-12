@@ -1670,6 +1670,34 @@ a.tag:hover {
     gap: 26px;
   }
 
+  .hero__text,
+  .hero__visual {
+    min-width: 0;
+  }
+
+  .hero__visual {
+    width: 100%;
+    min-height: 0;
+  }
+
+  .blob--one {
+    width: 140px;
+    height: 140px;
+  }
+
+  .blob--two {
+    width: 170px;
+    height: 170px;
+  }
+
+  .avatar-card {
+    width: 100%;
+    max-width: 460px;
+    height: auto;
+    margin: 0 auto;
+    padding: 22px 20px;
+  }
+
   .about__card {
     flex-direction: column;
     text-align: center;
@@ -1720,8 +1748,64 @@ a.tag:hover {
     gap: 12px;
   }
 
+  .avatar-card {
+    padding: 18px 16px;
+  }
+
+  .avatar-card__head {
+    gap: 12px;
+    align-items: flex-start;
+  }
+
+  .avatar-card__brand {
+    font-size: 0.56rem;
+    letter-spacing: 0.16em;
+  }
+
+  .avatar-card__name {
+    font-size: 1.28rem;
+  }
+
+  .avatar-card__role {
+    font-size: 0.76rem;
+  }
+
+  .avatar-card__photo {
+    width: 84px;
+    height: 106px;
+  }
+
+  .avatar-card__contact {
+    gap: 6px;
+    font-size: 0.72rem;
+  }
+
+  .avatar-card__pill {
+    padding: 5px 10px;
+    overflow-wrap: anywhere;
+    text-align: center;
+  }
+
   .post-card {
-    padding: 22px;
+    padding: 20px 18px;
+  }
+
+  .post-card__title {
+    font-size: 1.06rem;
+  }
+
+  .post-card__footer {
+    flex-wrap: wrap;
+    row-gap: 10px;
+  }
+
+  .read-more {
+    margin-left: auto;
+  }
+
+  .topic {
+    padding: 8px 14px;
+    font-size: 0.84rem;
   }
 
   .terminal {
